@@ -1,0 +1,29 @@
+/* Slaydlar konteyneri uchun stil */
+.slide-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Har bir slayd uchun stil */
+.slide {
+    display: none;
+}
+
+/* Rasm uchun stil */
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Matn uchun stil */
+.caption, .location {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
